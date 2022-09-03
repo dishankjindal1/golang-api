@@ -1,25 +1,11 @@
 {
   "configurations": [
     {
-      "name": "[DEV] Server",
+      "name": "Run Server",
       "type": "go",
       "request": "launch",
       "mode": "debug",
-      "program": "${workspaceFolder}/main/server-development.go"
-    },
-    {
-      "name": "[STAG] Server",
-      "type": "go",
-      "request": "launch",
-      "mode": "debug",
-      "program": "${workspaceFolder}/main/server-staging.go"
-    },
-    {
-      "name": "[PROD] Server",
-      "type": "go",
-      "request": "launch",
-      "mode": "debug",
-      "program": "${workspaceFolder}/main/server.go"
+      "program": "${workspaceFolder}/main.go"
     }
   ]
 }
